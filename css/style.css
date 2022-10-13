@@ -1,0 +1,48 @@
+/* HEADER  */
+
+.header{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-links{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+
+.logo{
+    width: 125px;
+    height: 25px;
+}
+
+.nav-links{
+    text-transform: uppercase;
+
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+/* COVER */
+
+.cover{
+    display: flex;
+}
+
+.image-office{
+    width: 55%;
+    flex-shrink: 0;
+}
+
+.image-arrow{
+    background-color: black;
+    border-radius: 50%;
+    width: 40px;
+}
